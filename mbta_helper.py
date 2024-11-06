@@ -14,6 +14,7 @@ MAPBOX_BASE_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places"
 MBTA_BASE_URL = "https://api-v3.mbta.com/stops"
 
 
+
 # A little bit of scaffolding if you want to use it
 def get_json(url: str) -> dict:
     """
