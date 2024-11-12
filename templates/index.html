@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hi</title>
+    <title>Find Nearest MBTA Station</title>
   </head>
 
   <body>
-    <h1>Hi</h1>
+    <h1 style="color: #3C552D"> Welcome, {{username}}!😎</h1> <!--- decided to add emojis and color to make it look nice -->
     <p>This is an amazing app to help you find the nearest MBTA station</p>
+    <h2>Find the Nearest MBTA Station</h2>
+    <form action="/nearest_mbta" method="post">
+      <label for="place_name">Enter a place name:</label>
+      <input type="text" id="place_name" name="place_name" required>  <!-- Used ChatGPT & the Internet to learn how to create a button and inputs-->
+      <button type="submit" style="background-color: #800000; color: white">Submit</button> <!--- looked up how to color the background and text inside the button -->
+    </form>
   </body>
 </html>

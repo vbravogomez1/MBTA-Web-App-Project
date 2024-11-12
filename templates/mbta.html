@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest MBTA Station</title>
+</head>
+<body>
+    <h1 style="color: #3C552D"> Nearest MBTA Station</h1>
+    <p>📍 The closest station to {{ place_name }} is: <span style="color: #982B1C">{{ station }}</span> </p> <!--- looked up how to color a specific part of the text, not the whole thing -->
+    <p>♿ Wheelchair accessible: <span style="color: #982B1C">{% if accessible %}Yes{% else %}No{% endif %}</span> </p> <!--- had to use Chatgpt to learn how to do this-->
+    <p>⛅ The current teperature is: <span style="color: #982B1C">{{ weather }}°C</span></p>
+    <a href="/">Back to Home</a>
+</body>
+</html>
