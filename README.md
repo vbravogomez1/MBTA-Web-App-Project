@@ -21,10 +21,10 @@ From a learning perspective, this project provided valuable insights into web de
 
 ### Screenshots
 ![alt text](screenshots/image.png)
-We got a lot of these TemplateSyntaxErrors
+_We got a lot of these TemplateSyntaxErrors_
 
 ![alt text](screenshots/image-1.png)
-We could not get the station to print "The closest station to (Boston + place_name) is: ..."
+_We could not get the station to print "The closest station to (Boston + placename) is: ..."_
 
 ![alt text](screenshots/image-2.png)
-We couldn't figure out why the image was not showing
+_We couldn't figure out why the image was not showing_
